@@ -1,0 +1,84 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.historico-table {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.historico-table h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px 8px 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 600px) {
+  th, td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .historico-table h1 {
+    font-size: 20px;
+  }
+}
+
+.divider-row {
+  background-color: #ccc;
+  height: 2px;
+}
+
+.excluir {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.editar {
+  background-color: #0017e6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.excluir:hover, .editar:hover {
+  background-color: #d32f2f;
+}

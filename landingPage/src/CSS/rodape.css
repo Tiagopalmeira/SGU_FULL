@@ -1,0 +1,68 @@
+/* rodape.css */
+
+.rodape {
+  background-color: #001C42;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.icone {
+  height: 100%;
+  width: 15px;
+  margin-left: 1px;
+  flex-direction: column;
+}
+
+.redes-sociais {
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.redes-sociais ul {
+  list-style: none;
+}
+
+.redes-sociais ul li {
+  margin-right: 0;
+}
+
+.falar h1 {
+  text-align: end;
+  margin-left: 15px;
+}
+
+.falar h6 {
+  text-align: end;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.linha {
+  display: flex;
+  margin-right: 155px;
+  width: 2px;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.rodape a {
+  justify-items: end;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffffff;
+}
+
+.rodape a:hover {
+  color: #ffd900c5;
+}

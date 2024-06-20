@@ -1,0 +1,75 @@
+:root {
+  text-align: center;
+}
+
+.fotoeu {
+  width: auto;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.galinho h1 {
+  color: rgba(0, 29, 68, 0.74);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.centralizado h3 {
+  color: rgba(0, 29, 68, 0.74);
+  font-size: 25px;
+  text-align: start;
+  padding-left: 100px;
+}
+
+.centralizado h6 {
+
+  color: rgba(0, 29, 68, 0.74);
+  margin-top: -50;
+  border-left: 100px;
+  display: flex;
+  text-align: justify;
+  font-size: 18px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+
+.card {
+  background-color: #FED900;
+  width: auto;
+  height: 80%;
+}
+
+.card h4{
+  font-size: 150%;
+}
+
+.preco {
+  font-size: 150%;
+}
+
+
+.listabeneficios {
+  list-style: disc; 
+  padding-left: 20px; 
+  text-align: start;
+}
+
+.listabeneficios li {
+  margin-bottom: 10px; 
+}
+
+
+
+.contratar {
+  color: #E32103;
+  background-color: rgb(255, 255, 255);
+}
+.divisao{
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  margin-top: 05%;
+}
+

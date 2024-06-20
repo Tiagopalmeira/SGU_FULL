@@ -1,0 +1,48 @@
+:root {
+
+  text-align: center; 
+ }
+
+ .sessao h1{
+  text-align: center;
+  color: rgba(0, 29, 68, 0.74);
+  font-size: 28px;
+ }
+
+ .container{
+  align-items: center;
+  flex-direction: column
+}
+
+.img img {
+  width: 50%;
+  border-radius: 25px;
+}
+.fotoService img{
+  height: auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #ffffff;
+}
