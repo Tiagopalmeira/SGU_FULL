@@ -1,9 +1,11 @@
 /** @type {import('jest').Config} */
 module.exports = {
-  testEnvironment: 'jest-environment-jsdom', // Atualize para usar o pacote separado
-  transform: {
-    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest', // Usa babel-jest para transformar arquivos JS e JSX
+  moduleNameMapper: {
+    '\\.css$': '<rootDir>/__mocks__/styleMock.js',
   },
-  moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json', 'node'], // Extensões de arquivos reconhecidas
-  
+  testEnvironment: 'jest-environment-jsdom',
+  transform: {
+    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
+  },
+  moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json', 'node'],
 };
